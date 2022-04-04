@@ -1,0 +1,20 @@
+table{
+  color: yellow;
+  background: red;
+  margin: auto;
+  font-size: 20px;
+}
+tr,thead{
+  border:2px solid white;
+}
+thead,th{
+  color:white;
+  border: 2px solid white;
+  font-size: 25px;
+  margin:auto;
+  background: blue;
+}
+tr:nth-of-type(even){
+  background: #1ec75c;
+  color:blue;
+}
